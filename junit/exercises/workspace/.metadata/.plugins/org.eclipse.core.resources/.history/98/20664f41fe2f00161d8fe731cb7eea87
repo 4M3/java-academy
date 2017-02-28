@@ -1,0 +1,5 @@
+package com.accenture.junit;
+
+public class InvalidGoalException extends exception{
+
+}

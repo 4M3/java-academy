@@ -1,0 +1,32 @@
+import org.junit.Test;
+import org.junit.Before;
+
+import com.accenture.junit.TrackingService;
+import static org.junit.Assert.*;
+
+public class TrackingServiceTest {
+	
+	private TrackingService trackingService;
+	
+	@Before
+	public void setUp(){
+		trackingService = new TrackingService();		
+	}
+	
+	@Test
+	public void newTrackingServiceTotalIsZero(){		
+		assertEquals("Tracking service total was not zero", 0, trackingService.getTotal());
+	}
+	
+	@Test
+	public void whenAddingProteinTotalIncreasesByThatAmount(){		
+		trackingService.addProtein(10);
+		assertEquals(10, trackingService.getTotal());
+	}
+	
+	@Test
+	public void WhenRemovingProteinTotalRemainsZero(){		
+		trackingService.removeProtein(5);
+		assertEquals(0, trackingService.getTotal());
+	}
+}

@@ -1,0 +1,18 @@
+package com.accenture.junit;
+
+public class HistoryItem {
+	private int count;
+	private int amount;
+	private String operation;
+	private int total;
+	public HistoryItem(int count, int amount, String operation, int total) {
+		super();
+		this.count = count;
+		this.amount = amount;
+		this.operation = operation;
+		this.total = total;
+	}
+	
+	
+	
+}

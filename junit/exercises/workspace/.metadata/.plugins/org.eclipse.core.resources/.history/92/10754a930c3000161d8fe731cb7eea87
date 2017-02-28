@@ -1,0 +1,13 @@
+package com.accenture.junit;
+
+public class InvalidGoalException extends Exception{
+	
+	public InvalidGoalException(String message){
+		super(message);		
+	}
+
+	public InvalidGoalException(String message) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.accenture.junit;
+
+public class HistoryItem {
+	private int count;
+	private int amount;
+	private String operation;
+	private int total;
+	
+}

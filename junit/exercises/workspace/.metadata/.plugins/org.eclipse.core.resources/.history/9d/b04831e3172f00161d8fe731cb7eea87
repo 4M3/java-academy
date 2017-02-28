@@ -1,0 +1,14 @@
+package com.accenture.junit;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class TrackingServiceeTest {
+
+	@Test
+	public void test(){		
+		int length = "Hello".length();
+		System.out.println("Hello "+length);
+		assertEquals(5, "Hello".length());
+	}
+}

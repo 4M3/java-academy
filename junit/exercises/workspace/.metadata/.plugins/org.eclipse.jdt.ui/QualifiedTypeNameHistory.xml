@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="com.accenture.junit.HistoryItem"/>
+<fullyQualifiedTypeName name="org.junit.runners.Suite.SuiteClasses"/>
+<fullyQualifiedTypeName name="HelloJUnitTest"/>
+<fullyQualifiedTypeName name="CategoryTest"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Category"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories.IncludeCategory"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories.ExcludeCategory"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.accenture.junit.TrackingService"/>
+<fullyQualifiedTypeName name="org.hamcrest.CoreMatchers"/>
+<fullyQualifiedTypeName name="org.junit.matchers.JUnitMatchers"/>
+<fullyQualifiedTypeName name="java.util.function.Supplier"/>
+<fullyQualifiedTypeName name="com.accenture.junit.InvalidGoalException"/>
+<fullyQualifiedTypeName name="org.junit.experimental.theories.DataPoints"/>
+<fullyQualifiedTypeName name="org.junit.experimental.theories.Theory"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="org.junit.Assume"/>
+<fullyQualifiedTypeName name="org.junit.internal.TextListener"/>
+<fullyQualifiedTypeName name="TrackingServiceTest"/>
+</qualifiedTypeNameHistroy>
